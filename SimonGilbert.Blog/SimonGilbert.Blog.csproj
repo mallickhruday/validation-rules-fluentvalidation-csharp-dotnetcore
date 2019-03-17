@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimonGilbert.Blog.Models\SimonGilbert.Blog.Models.csproj" />
+    <ProjectReference Include="..\SimonGilbert.Blog.Validation\SimonGilbert.Blog.Validation.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.1.3" />
+  </ItemGroup>
+</Project>
